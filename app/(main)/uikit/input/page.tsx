@@ -37,7 +37,7 @@ interface InputValue {
     name: string;
     code: string;
 }
-
+ 
 const InputDemo: Page = () => {
     const [floatValue, setFloatValue] = useState("");
     const [autoValue, setAutoValue] = useState<Demo.Country[]>([]);
